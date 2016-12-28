@@ -1,0 +1,6 @@
+version: 1.0.{build}
+environment:
+  MyVar: initialVaue
+build_script:
+- ps: .\foo.ps1
+- ps: .\bar.ps1
